@@ -1,0 +1,5 @@
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/matrix_display_control_code/cmake-build-uno/CMakeFiles/Production.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/matrix_display_control_code/cmake-build-uno/CMakeFiles/Debug.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/matrix_display_control_code/cmake-build-uno/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/matrix_display_control_code/cmake-build-uno/CMakeFiles/edit_cache.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/matrix_display_control_code/cmake-build-uno/CMakeFiles/rebuild_cache.dir

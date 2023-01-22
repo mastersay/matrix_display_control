@@ -1,0 +1,136 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/ninja/win/ninja.exe cmTC_d54c8 && [1/2] Building C object CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\Users\japru\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d54c8.dir/'
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d54c8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\japru\AppData\Local\Temp\cchiWGg5.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23424b72d090e8b977a96775bde79257
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d54c8.dir/'
+ as -v -o CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj C:\Users\japru\AppData\Local\Temp\cchiWGg5.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_d54c8
+Using built-in specs.
+COLLECT_GCC=C:\Users\japru\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d54c8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d54c8.'
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d54c8.exe C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_d54c8.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d54c8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d54c8.'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/cmTC_d54c8
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/Debug/cmTC_d54c8
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/Development/cmTC_d54c8
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/ninja/win/ninja.exe cmTC_220eb && [1/2] Building CXX object CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\Users\japru\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_220eb.dir/'
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_220eb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\japru\AppData\Local\Temp\ccnsJ3tx.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_220eb.dir/'
+ as -v -o CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\japru\AppData\Local\Temp\ccnsJ3tx.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_220eb
+Using built-in specs.
+COLLECT_GCC=C:\Users\japru\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_220eb.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_220eb.'
+ C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_220eb.exe C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_220eb.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/japru/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_220eb.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_220eb.'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/cmTC_220eb
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/Debug/cmTC_220eb
+  C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/Matrix_display_control_code/cmake-build-uno/CMakeFiles/CMakeTmp/Development/cmTC_220eb
+
+
