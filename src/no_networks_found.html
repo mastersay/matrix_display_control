@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Network setup</title>
+</head>
+<body>
+<p>No networks found, if you have hidden ssid, please enter bellow or refresh the page to search again:</p>
+<form action="/login" method="POST">
+    <label for="ssid">Hidden ssid</label>
+    <input type="text" name="ssid" id="ssid">
+    <label for="password">Password</label>
+    <input type="text" name="password" id="password">
+    <input type="submit" value="Connect">
+</form>
+<form action="/datetime" method="get" id="datetime-form">
+    <label for="ntp">Auto date and time:</label>
+    <input type="checkbox" onclick="manual_date_time(hide=this.checked)" id="ntp" name="ntp" checked>
+    <div id="manual-date-time" style="display: none">
+        <label for="datetime">Setup date and time:</label>
+        <input type="datetime-local" id="datetime"
+               name="datetime" value="2023-06-15T07:00">
+    </div>
+    <input type="submit" value="Set">
+</form>
+<form action="/alarm" method="get" id="alarm-form">
+    <label for="alarm_on">Alarm enabled:</label>
+    <input type="checkbox" onclick="alarm_time_show(turned_on=this.checked)" id="alarm_on" name="alarm_on">
+    <div id="alarm-time" style="display: none">
+        <label for="alarm_time">Setup date and time:</label>
+        <input type="time" id="alarm_time"
+               name="alarm_time" value="00:00">
+    </div>
+    <input type="submit" value="Set">
+</form>
+</body>
+<script>
+    function manual_date_time(hide) {
+        if (hide) {
+            document.getElementById("manual-date-time").style.display = "none"
+        } else {
+            document.getElementById("manual-date-time").style.display = "block"
+        }
+    }
+    function alarm_time_show(turned_on) {
+        if (turned_on) {
+            document.getElementById("alarm-time").style.display = "block"
+        } else {
+            document.getElementById("alarm-time").style.display = "none"
+        }
+    }
+</script>
+</html>

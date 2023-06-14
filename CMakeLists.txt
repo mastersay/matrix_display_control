@@ -10,7 +10,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_C_COMPILER_WORKS 1)
 set(CMAKE_CXX_COMPILER_WORKS 1)
 
-project("esp32_version" C CXX)
+project("esp32_version_v2" C CXX)
 
 include(CMakeListsPrivate.txt)
 
@@ -30,4 +30,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(Z_DUMMY_TARGET ${SRC_LIST} include/display.hpp src/display.cpp)
+add_executable(Z_DUMMY_TARGET ${SRC_LIST} include/display.hpp src/display.cpp src/server_wifi.cpp include/server_wifi.hpp src/wifi_server.cpp include/wifi_server.hpp src/ESP32Time.cpp)

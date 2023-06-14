@@ -1,0 +1,5 @@
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/esp32_version_v2/cmake-build-esp32dev/CMakeFiles/Production.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/esp32_version_v2/cmake-build-esp32dev/CMakeFiles/Debug.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/esp32_version_v2/cmake-build-esp32dev/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/esp32_version_v2/cmake-build-esp32dev/CMakeFiles/edit_cache.dir
+C:/Users/japru/Desktop/School/Third_year/Prax/Matrix_display_control/esp32_version_v2/cmake-build-esp32dev/CMakeFiles/rebuild_cache.dir

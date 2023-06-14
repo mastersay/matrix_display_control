@@ -5,11 +5,12 @@
 #ifndef ESP32_VERSION_DISPLAY_HPP
 #define ESP32_VERSION_DISPLAY_HPP
 
-#include <cstdint>
+#include <Arduino.h>
 #include <array>
+#include <WiFi.h>
 
 const uint8_t alphabet[][5] = {
-        {0xFF, 0xFF, 0xFF, 0xFF, 0xFF},
+        {0x00, 0x00, 0x00, 0x00, 0x00},
         {},
         {},
         {},
@@ -39,7 +40,7 @@ const uint8_t alphabet[][5] = {
         {},
         {},
         {},
-        {},
+        {0x00, 0x00, 0x00, 0x00, 0x00},
         {0x00, 0x01, 0x02, 0x03, 0x04},
         {0xFF, 0xFF, 0xFF, 0xFF, 0xFF}, //  Space
         {0xFF, 0xFF, 0xA0, 0xFF, 0xFF}, //  !
@@ -137,28 +138,54 @@ const uint8_t alphabet[][5] = {
         {0xFF, 0xFF, 0xBE, 0xC9, 0xF7}, //  }
 };
 
-class Matrix_display {
+extern std::string display_content;// = "XxXxX";
+extern tm time_info;
+struct Alarm {
+    int hour;
+    int minute;
+};
+extern bool alarm_enabled;
+extern Alarm alarm_info;
+extern TaskHandle_t update_time_handle;
+#define COLUMNS 25
 
+class Matrix_display {
 
     void tick_column() const;
 
     void reset_rows() const;
 
-    uint8_t columns_data, reset, clk, menu_entry, menu_left, menu_right;
+    uint8_t columns_data, reset, clk, menu_entry, menu_left, menu_right; // Output variables
     const std::array<const uint8_t, 8> pins;
+
+    void manual_wifi();
+
 public:
     Matrix_display(uint8_t columns_data, uint8_t reset, uint8_t clk, std::array<const uint8_t, 8> pins,
                    uint8_t menu_entry, uint8_t menu_left, uint8_t menu_right);
 
+    TaskHandle_t main_loop_handle = nullptr;
 
     void pixels_on() const;
 
     void pixels_off() const;
 
+    void input_check();
+
     void static_text(const std::string &text);
 
-    void display_loop(const std::string& text);
+    void static_text_byte(const byte text[]);
+
+    void static_loop(const std::string &text, time_t duration);
+
+    void static_loop_byte(const byte text[], time_t duration);
+
+    [[noreturn]] void display_loop(void *parameter);
 };
 
+struct Static_loop_params {
+    std::string text;
+    time_t duration;
+};
 
 #endif //ESP32_VERSION_DISPLAY_HPP
