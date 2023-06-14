@@ -1,0 +1,8 @@
+#GET http://3.pool.ntp.org
+#Accept: application/json
+
+
+
+
+
+GET https://www.ntppool.org
